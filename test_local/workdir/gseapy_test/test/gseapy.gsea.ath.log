@@ -1,0 +1,331 @@
+LINE 397 : 2019-12-02 17:06:54,967 [INFO    ] Parsing data files for GSEA.............................
+LINE 129 : 2019-12-02 17:06:55,310 [INFO    ] Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+LINE 141 : 2019-12-02 17:06:55,310 [INFO    ] NumExpr defaulting to 8 threads.
+LINE 135 : 2019-12-02 17:06:56,659 [INFO    ] 0003 gene_sets have been filtered out when max_size=500 and min_size=15
+LINE 411 : 2019-12-02 17:06:56,660 [INFO    ] 0007 gene_sets used for further statistical testing.....
+LINE 412 : 2019-12-02 17:06:56,660 [INFO    ] Start to run GSEA...Might take a while..................
+LINE 387 : 2019-12-02 17:06:56,660 [DEBUG   ] Start to compute es and esnulls........................
+LINE 623 : 2019-12-02 17:07:23,051 [DEBUG   ] Start to compute pvals..................................
+LINE 627 : 2019-12-02 17:07:23,052 [DEBUG   ] Start to compute nes and nesnull........................
+LINE 638 : 2019-12-02 17:07:23,052 [DEBUG   ] Start to compute fdrs..................................
+LINE 605 : 2019-12-02 17:07:23,053 [DEBUG   ] Statistical testing finished.............................
+LINE 425 : 2019-12-02 17:07:23,053 [INFO    ] Start to generate GSEApy reports and figures............
+LINE 1259: 2019-12-02 17:07:23,571 [DEBUG   ] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+LINE 1271: 2019-12-02 17:07:23,573 [DEBUG   ] findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,573 [DEBUG   ] findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,573 [DEBUG   ] findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal bold normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:23,574 [DEBUG   ] findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,574 [DEBUG   ] findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,574 [DEBUG   ] findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+LINE 1271: 2019-12-02 17:07:23,574 [DEBUG   ] findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+LINE 1271: 2019-12-02 17:07:23,574 [DEBUG   ] findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,574 [DEBUG   ] findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal bold normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:23,574 [DEBUG   ] findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal bold normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:23,574 [DEBUG   ] findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,574 [DEBUG   ] findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,574 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+LINE 1271: 2019-12-02 17:07:23,574 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal bold normal>) = 0.33499999999999996
+LINE 1271: 2019-12-02 17:07:23,574 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+LINE 1271: 2019-12-02 17:07:23,574 [DEBUG   ] findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,574 [DEBUG   ] findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,574 [DEBUG   ] findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal bold normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:23,575 [DEBUG   ] findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+LINE 1271: 2019-12-02 17:07:23,575 [DEBUG   ] findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,575 [DEBUG   ] findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,575 [DEBUG   ] findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal bold normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:23,575 [DEBUG   ] findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal bold normal>) = 11.335
+LINE 1271: 2019-12-02 17:07:23,575 [DEBUG   ] findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,575 [DEBUG   ] findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal bold normal>) = 11.335
+LINE 1271: 2019-12-02 17:07:23,575 [DEBUG   ] findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal bold normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:23,575 [DEBUG   ] findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,575 [DEBUG   ] findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,575 [DEBUG   ] findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,575 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal bold normal>) = 1.335
+LINE 1271: 2019-12-02 17:07:23,575 [DEBUG   ] findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+LINE 1271: 2019-12-02 17:07:23,575 [DEBUG   ] findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal bold normal>) = 11.335
+LINE 1271: 2019-12-02 17:07:23,576 [DEBUG   ] findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal bold normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:23,576 [DEBUG   ] findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,576 [DEBUG   ] findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,576 [DEBUG   ] findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal bold normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:23,576 [DEBUG   ] findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,576 [DEBUG   ] findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+LINE 1271: 2019-12-02 17:07:23,576 [DEBUG   ] findfont: score(<Font 'DejaVu Serif' (DejaVuSerifCondensed-BoldItalic.ttf) italic normal bold condensed>) = 11.535
+LINE 1271: 2019-12-02 17:07:23,576 [DEBUG   ] findfont: score(<Font 'DejaVu Serif' (DejaVuSerifCondensed.ttf) normal normal 400 condensed>) = 10.25
+LINE 1271: 2019-12-02 17:07:23,576 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSansCondensed-Oblique.ttf) oblique normal 400 condensed>) = 1.25
+LINE 1271: 2019-12-02 17:07:23,576 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSans-ExtraLight.ttf) normal normal light normal>) = 0.24
+LINE 1271: 2019-12-02 17:07:23,576 [DEBUG   ] findfont: score(<Font 'DejaVu Serif' (DejaVuSerifCondensed-Italic.ttf) italic normal 400 condensed>) = 11.25
+LINE 1271: 2019-12-02 17:07:23,576 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSansCondensed-Bold.ttf) normal normal bold condensed>) = 0.5349999999999999
+LINE 1271: 2019-12-02 17:07:23,576 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSansCondensed.ttf) normal normal 400 condensed>) = 0.25
+LINE 1271: 2019-12-02 17:07:23,576 [DEBUG   ] findfont: score(<Font 'DejaVu Serif' (DejaVuSerifCondensed-Bold.ttf) normal normal bold condensed>) = 10.535
+LINE 1271: 2019-12-02 17:07:23,577 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSansCondensed-BoldOblique.ttf) oblique normal bold condensed>) = 1.535
+LINE 1294: 2019-12-02 17:07:23,577 [DEBUG   ] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+LINE 651 : 2019-12-02 17:07:23,592 [DEBUG   ] Assigning font /b'F1' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 1259: 2019-12-02 17:07:23,596 [DEBUG   ] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=14.0.
+LINE 1271: 2019-12-02 17:07:23,596 [DEBUG   ] findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,596 [DEBUG   ] findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,596 [DEBUG   ] findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal bold normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:23,596 [DEBUG   ] findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,596 [DEBUG   ] findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,597 [DEBUG   ] findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+LINE 1271: 2019-12-02 17:07:23,597 [DEBUG   ] findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+LINE 1271: 2019-12-02 17:07:23,597 [DEBUG   ] findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,597 [DEBUG   ] findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal bold normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:23,597 [DEBUG   ] findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal bold normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:23,597 [DEBUG   ] findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,597 [DEBUG   ] findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,597 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+LINE 1271: 2019-12-02 17:07:23,597 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal bold normal>) = 0.33499999999999996
+LINE 1271: 2019-12-02 17:07:23,597 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+LINE 1271: 2019-12-02 17:07:23,597 [DEBUG   ] findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,597 [DEBUG   ] findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,597 [DEBUG   ] findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal bold normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:23,597 [DEBUG   ] findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+LINE 1271: 2019-12-02 17:07:23,598 [DEBUG   ] findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,598 [DEBUG   ] findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,598 [DEBUG   ] findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal bold normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:23,598 [DEBUG   ] findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal bold normal>) = 11.335
+LINE 1271: 2019-12-02 17:07:23,598 [DEBUG   ] findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,598 [DEBUG   ] findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal bold normal>) = 11.335
+LINE 1271: 2019-12-02 17:07:23,598 [DEBUG   ] findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal bold normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:23,598 [DEBUG   ] findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,598 [DEBUG   ] findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,598 [DEBUG   ] findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,598 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal bold normal>) = 1.335
+LINE 1271: 2019-12-02 17:07:23,598 [DEBUG   ] findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+LINE 1271: 2019-12-02 17:07:23,598 [DEBUG   ] findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal bold normal>) = 11.335
+LINE 1271: 2019-12-02 17:07:23,598 [DEBUG   ] findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal bold normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:23,598 [DEBUG   ] findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,599 [DEBUG   ] findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,599 [DEBUG   ] findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal bold normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:23,599 [DEBUG   ] findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:23,599 [DEBUG   ] findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+LINE 1271: 2019-12-02 17:07:23,599 [DEBUG   ] findfont: score(<Font 'DejaVu Serif' (DejaVuSerifCondensed-BoldItalic.ttf) italic normal bold condensed>) = 11.535
+LINE 1271: 2019-12-02 17:07:23,599 [DEBUG   ] findfont: score(<Font 'DejaVu Serif' (DejaVuSerifCondensed.ttf) normal normal 400 condensed>) = 10.25
+LINE 1271: 2019-12-02 17:07:23,599 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSansCondensed-Oblique.ttf) oblique normal 400 condensed>) = 1.25
+LINE 1271: 2019-12-02 17:07:23,599 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSans-ExtraLight.ttf) normal normal light normal>) = 0.24
+LINE 1271: 2019-12-02 17:07:23,599 [DEBUG   ] findfont: score(<Font 'DejaVu Serif' (DejaVuSerifCondensed-Italic.ttf) italic normal 400 condensed>) = 11.25
+LINE 1271: 2019-12-02 17:07:23,599 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSansCondensed-Bold.ttf) normal normal bold condensed>) = 0.5349999999999999
+LINE 1271: 2019-12-02 17:07:23,599 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSansCondensed.ttf) normal normal 400 condensed>) = 0.25
+LINE 1271: 2019-12-02 17:07:23,599 [DEBUG   ] findfont: score(<Font 'DejaVu Serif' (DejaVuSerifCondensed-Bold.ttf) normal normal bold condensed>) = 10.535
+LINE 1271: 2019-12-02 17:07:23,599 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSansCondensed-BoldOblique.ttf) oblique normal bold condensed>) = 1.535
+LINE 1294: 2019-12-02 17:07:23,599 [DEBUG   ] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=14.0 to DejaVu Sans ('/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+LINE 1259: 2019-12-02 17:07:23,829 [DEBUG   ] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=bold:stretch=normal:size=16.0.
+LINE 1271: 2019-12-02 17:07:23,830 [DEBUG   ] findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:23,830 [DEBUG   ] findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:23,830 [DEBUG   ] findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal bold normal>) = 10.0
+LINE 1271: 2019-12-02 17:07:23,830 [DEBUG   ] findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:23,830 [DEBUG   ] findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:23,830 [DEBUG   ] findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.335
+LINE 1271: 2019-12-02 17:07:23,830 [DEBUG   ] findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.335
+LINE 1271: 2019-12-02 17:07:23,830 [DEBUG   ] findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:23,830 [DEBUG   ] findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal bold normal>) = 10.0
+LINE 1271: 2019-12-02 17:07:23,830 [DEBUG   ] findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal bold normal>) = 10.0
+LINE 1271: 2019-12-02 17:07:23,830 [DEBUG   ] findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:23,830 [DEBUG   ] findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:23,830 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.33499999999999996
+LINE 1271: 2019-12-02 17:07:23,831 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal bold normal>) = 0.0
+LINE 1294: 2019-12-02 17:07:23,831 [DEBUG   ] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=bold:stretch=normal:size=16.0 to DejaVu Sans ('/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf') with score of 0.000000.
+LINE 651 : 2019-12-02 17:07:23,843 [DEBUG   ] Assigning font /b'F2' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf'
+LINE 701 : 2019-12-02 17:07:23,844 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf.
+LINE 708 : 2019-12-02 17:07:23,844 [DEBUG   ] Writing TrueType font.
+LINE 701 : 2019-12-02 17:07:23,888 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 708 : 2019-12-02 17:07:23,888 [DEBUG   ] Writing TrueType font.
+LINE 651 : 2019-12-02 17:07:24,277 [DEBUG   ] Assigning font /b'F1' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 651 : 2019-12-02 17:07:24,445 [DEBUG   ] Assigning font /b'F2' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf'
+LINE 701 : 2019-12-02 17:07:24,446 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf.
+LINE 708 : 2019-12-02 17:07:24,446 [DEBUG   ] Writing TrueType font.
+LINE 701 : 2019-12-02 17:07:24,486 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 708 : 2019-12-02 17:07:24,487 [DEBUG   ] Writing TrueType font.
+LINE 560 : 2019-12-02 17:07:24,613 [DEBUG   ] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fe0fc502590>
+LINE 608 : 2019-12-02 17:07:24,613 [DEBUG   ] Using auto colorbar locator on colorbar
+LINE 609 : 2019-12-02 17:07:24,613 [DEBUG   ] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fe0fc502590>
+LINE 780 : 2019-12-02 17:07:24,613 [DEBUG   ] Setting pcolormesh
+LINE 1259: 2019-12-02 17:07:24,622 [DEBUG   ] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=20.0.
+LINE 1271: 2019-12-02 17:07:24,622 [DEBUG   ] findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:24,622 [DEBUG   ] findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:24,622 [DEBUG   ] findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal bold normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:24,622 [DEBUG   ] findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:24,622 [DEBUG   ] findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:24,622 [DEBUG   ] findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+LINE 1271: 2019-12-02 17:07:24,622 [DEBUG   ] findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+LINE 1271: 2019-12-02 17:07:24,622 [DEBUG   ] findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:24,623 [DEBUG   ] findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal bold normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:24,623 [DEBUG   ] findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal bold normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:24,623 [DEBUG   ] findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:24,623 [DEBUG   ] findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:24,623 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+LINE 1271: 2019-12-02 17:07:24,623 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal bold normal>) = 0.33499999999999996
+LINE 1271: 2019-12-02 17:07:24,623 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+LINE 1271: 2019-12-02 17:07:24,623 [DEBUG   ] findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:24,623 [DEBUG   ] findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:24,623 [DEBUG   ] findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal bold normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:24,623 [DEBUG   ] findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+LINE 1271: 2019-12-02 17:07:24,623 [DEBUG   ] findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:24,623 [DEBUG   ] findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:24,623 [DEBUG   ] findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal bold normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:24,623 [DEBUG   ] findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal bold normal>) = 11.335
+LINE 1271: 2019-12-02 17:07:24,624 [DEBUG   ] findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:24,624 [DEBUG   ] findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal bold normal>) = 11.335
+LINE 1271: 2019-12-02 17:07:24,624 [DEBUG   ] findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal bold normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:24,624 [DEBUG   ] findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:24,624 [DEBUG   ] findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:24,624 [DEBUG   ] findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:24,624 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal bold normal>) = 1.335
+LINE 1271: 2019-12-02 17:07:24,624 [DEBUG   ] findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+LINE 1271: 2019-12-02 17:07:24,624 [DEBUG   ] findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal bold normal>) = 11.335
+LINE 1271: 2019-12-02 17:07:24,624 [DEBUG   ] findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal bold normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:24,624 [DEBUG   ] findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:24,624 [DEBUG   ] findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:24,624 [DEBUG   ] findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal bold normal>) = 10.335
+LINE 1271: 2019-12-02 17:07:24,624 [DEBUG   ] findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+LINE 1271: 2019-12-02 17:07:24,624 [DEBUG   ] findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+LINE 1271: 2019-12-02 17:07:24,625 [DEBUG   ] findfont: score(<Font 'DejaVu Serif' (DejaVuSerifCondensed-BoldItalic.ttf) italic normal bold condensed>) = 11.535
+LINE 1271: 2019-12-02 17:07:24,625 [DEBUG   ] findfont: score(<Font 'DejaVu Serif' (DejaVuSerifCondensed.ttf) normal normal 400 condensed>) = 10.25
+LINE 1271: 2019-12-02 17:07:24,625 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSansCondensed-Oblique.ttf) oblique normal 400 condensed>) = 1.25
+LINE 1271: 2019-12-02 17:07:24,625 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSans-ExtraLight.ttf) normal normal light normal>) = 0.24
+LINE 1271: 2019-12-02 17:07:24,625 [DEBUG   ] findfont: score(<Font 'DejaVu Serif' (DejaVuSerifCondensed-Italic.ttf) italic normal 400 condensed>) = 11.25
+LINE 1271: 2019-12-02 17:07:24,625 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSansCondensed-Bold.ttf) normal normal bold condensed>) = 0.5349999999999999
+LINE 1271: 2019-12-02 17:07:24,625 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSansCondensed.ttf) normal normal 400 condensed>) = 0.25
+LINE 1271: 2019-12-02 17:07:24,625 [DEBUG   ] findfont: score(<Font 'DejaVu Serif' (DejaVuSerifCondensed-Bold.ttf) normal normal bold condensed>) = 10.535
+LINE 1271: 2019-12-02 17:07:24,625 [DEBUG   ] findfont: score(<Font 'DejaVu Sans' (DejaVuSansCondensed-BoldOblique.ttf) oblique normal bold condensed>) = 1.535
+LINE 1294: 2019-12-02 17:07:24,625 [DEBUG   ] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=20.0 to DejaVu Sans ('/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+LINE 651 : 2019-12-02 17:07:24,656 [DEBUG   ] Assigning font /b'F1' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 701 : 2019-12-02 17:07:24,721 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 708 : 2019-12-02 17:07:24,721 [DEBUG   ] Writing TrueType font.
+LINE 651 : 2019-12-02 17:07:24,881 [DEBUG   ] Assigning font /b'F1' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 701 : 2019-12-02 17:07:24,944 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 708 : 2019-12-02 17:07:24,944 [DEBUG   ] Writing TrueType font.
+LINE 651 : 2019-12-02 17:07:25,095 [DEBUG   ] Assigning font /b'F1' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 651 : 2019-12-02 17:07:25,282 [DEBUG   ] Assigning font /b'F2' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf'
+LINE 701 : 2019-12-02 17:07:25,283 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf.
+LINE 708 : 2019-12-02 17:07:25,283 [DEBUG   ] Writing TrueType font.
+LINE 701 : 2019-12-02 17:07:25,322 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 708 : 2019-12-02 17:07:25,322 [DEBUG   ] Writing TrueType font.
+LINE 651 : 2019-12-02 17:07:25,710 [DEBUG   ] Assigning font /b'F1' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 651 : 2019-12-02 17:07:25,875 [DEBUG   ] Assigning font /b'F2' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf'
+LINE 701 : 2019-12-02 17:07:25,875 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf.
+LINE 708 : 2019-12-02 17:07:25,875 [DEBUG   ] Writing TrueType font.
+LINE 701 : 2019-12-02 17:07:25,915 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 708 : 2019-12-02 17:07:25,915 [DEBUG   ] Writing TrueType font.
+LINE 560 : 2019-12-02 17:07:26,032 [DEBUG   ] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fe0fc3e3950>
+LINE 608 : 2019-12-02 17:07:26,033 [DEBUG   ] Using auto colorbar locator on colorbar
+LINE 609 : 2019-12-02 17:07:26,033 [DEBUG   ] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fe0fc3e3950>
+LINE 780 : 2019-12-02 17:07:26,033 [DEBUG   ] Setting pcolormesh
+LINE 651 : 2019-12-02 17:07:26,069 [DEBUG   ] Assigning font /b'F1' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 701 : 2019-12-02 17:07:26,128 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 708 : 2019-12-02 17:07:26,128 [DEBUG   ] Writing TrueType font.
+LINE 651 : 2019-12-02 17:07:26,286 [DEBUG   ] Assigning font /b'F1' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 701 : 2019-12-02 17:07:26,344 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 708 : 2019-12-02 17:07:26,344 [DEBUG   ] Writing TrueType font.
+LINE 651 : 2019-12-02 17:07:26,499 [DEBUG   ] Assigning font /b'F1' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 651 : 2019-12-02 17:07:26,690 [DEBUG   ] Assigning font /b'F2' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf'
+LINE 701 : 2019-12-02 17:07:26,690 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf.
+LINE 708 : 2019-12-02 17:07:26,691 [DEBUG   ] Writing TrueType font.
+LINE 701 : 2019-12-02 17:07:26,730 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 708 : 2019-12-02 17:07:26,730 [DEBUG   ] Writing TrueType font.
+LINE 651 : 2019-12-02 17:07:27,116 [DEBUG   ] Assigning font /b'F1' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 651 : 2019-12-02 17:07:27,280 [DEBUG   ] Assigning font /b'F2' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf'
+LINE 701 : 2019-12-02 17:07:27,280 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf.
+LINE 708 : 2019-12-02 17:07:27,280 [DEBUG   ] Writing TrueType font.
+LINE 701 : 2019-12-02 17:07:27,318 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 708 : 2019-12-02 17:07:27,318 [DEBUG   ] Writing TrueType font.
+LINE 560 : 2019-12-02 17:07:27,469 [DEBUG   ] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fe0fc4da910>
+LINE 608 : 2019-12-02 17:07:27,469 [DEBUG   ] Using auto colorbar locator on colorbar
+LINE 609 : 2019-12-02 17:07:27,469 [DEBUG   ] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fe0fc4da910>
+LINE 780 : 2019-12-02 17:07:27,470 [DEBUG   ] Setting pcolormesh
+LINE 651 : 2019-12-02 17:07:27,528 [DEBUG   ] Assigning font /b'F1' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 701 : 2019-12-02 17:07:27,628 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 708 : 2019-12-02 17:07:27,628 [DEBUG   ] Writing TrueType font.
+LINE 651 : 2019-12-02 17:07:27,916 [DEBUG   ] Assigning font /b'F1' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 701 : 2019-12-02 17:07:27,989 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 708 : 2019-12-02 17:07:27,989 [DEBUG   ] Writing TrueType font.
+LINE 651 : 2019-12-02 17:07:28,147 [DEBUG   ] Assigning font /b'F1' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 651 : 2019-12-02 17:07:28,339 [DEBUG   ] Assigning font /b'F2' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf'
+LINE 701 : 2019-12-02 17:07:28,339 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf.
+LINE 708 : 2019-12-02 17:07:28,339 [DEBUG   ] Writing TrueType font.
+LINE 701 : 2019-12-02 17:07:28,378 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 708 : 2019-12-02 17:07:28,378 [DEBUG   ] Writing TrueType font.
+LINE 651 : 2019-12-02 17:07:28,765 [DEBUG   ] Assigning font /b'F1' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 651 : 2019-12-02 17:07:28,932 [DEBUG   ] Assigning font /b'F2' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf'
+LINE 701 : 2019-12-02 17:07:28,933 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf.
+LINE 708 : 2019-12-02 17:07:28,933 [DEBUG   ] Writing TrueType font.
+LINE 701 : 2019-12-02 17:07:28,972 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 708 : 2019-12-02 17:07:28,972 [DEBUG   ] Writing TrueType font.
+LINE 560 : 2019-12-02 17:07:29,194 [DEBUG   ] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fe0e0111ed0>
+LINE 608 : 2019-12-02 17:07:29,194 [DEBUG   ] Using auto colorbar locator on colorbar
+LINE 609 : 2019-12-02 17:07:29,194 [DEBUG   ] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fe0e0111ed0>
+LINE 780 : 2019-12-02 17:07:29,194 [DEBUG   ] Setting pcolormesh
+LINE 651 : 2019-12-02 17:07:29,255 [DEBUG   ] Assigning font /b'F1' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 701 : 2019-12-02 17:07:29,359 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 708 : 2019-12-02 17:07:29,359 [DEBUG   ] Writing TrueType font.
+LINE 651 : 2019-12-02 17:07:29,612 [DEBUG   ] Assigning font /b'F1' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 701 : 2019-12-02 17:07:29,708 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 708 : 2019-12-02 17:07:29,708 [DEBUG   ] Writing TrueType font.
+LINE 651 : 2019-12-02 17:07:29,865 [DEBUG   ] Assigning font /b'F1' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 651 : 2019-12-02 17:07:30,057 [DEBUG   ] Assigning font /b'F2' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf'
+LINE 701 : 2019-12-02 17:07:30,057 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf.
+LINE 708 : 2019-12-02 17:07:30,058 [DEBUG   ] Writing TrueType font.
+LINE 701 : 2019-12-02 17:07:30,096 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 708 : 2019-12-02 17:07:30,096 [DEBUG   ] Writing TrueType font.
+LINE 651 : 2019-12-02 17:07:30,480 [DEBUG   ] Assigning font /b'F1' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 651 : 2019-12-02 17:07:30,649 [DEBUG   ] Assigning font /b'F2' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf'
+LINE 701 : 2019-12-02 17:07:30,650 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf.
+LINE 708 : 2019-12-02 17:07:30,650 [DEBUG   ] Writing TrueType font.
+LINE 701 : 2019-12-02 17:07:30,690 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 708 : 2019-12-02 17:07:30,690 [DEBUG   ] Writing TrueType font.
+LINE 560 : 2019-12-02 17:07:30,839 [DEBUG   ] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fe0fc48b110>
+LINE 608 : 2019-12-02 17:07:30,840 [DEBUG   ] Using auto colorbar locator on colorbar
+LINE 609 : 2019-12-02 17:07:30,840 [DEBUG   ] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fe0fc48b110>
+LINE 780 : 2019-12-02 17:07:30,840 [DEBUG   ] Setting pcolormesh
+LINE 651 : 2019-12-02 17:07:30,898 [DEBUG   ] Assigning font /b'F1' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 701 : 2019-12-02 17:07:31,006 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 708 : 2019-12-02 17:07:31,006 [DEBUG   ] Writing TrueType font.
+LINE 651 : 2019-12-02 17:07:31,276 [DEBUG   ] Assigning font /b'F1' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 701 : 2019-12-02 17:07:31,368 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 708 : 2019-12-02 17:07:31,368 [DEBUG   ] Writing TrueType font.
+LINE 651 : 2019-12-02 17:07:31,521 [DEBUG   ] Assigning font /b'F1' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 651 : 2019-12-02 17:07:31,708 [DEBUG   ] Assigning font /b'F2' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf'
+LINE 701 : 2019-12-02 17:07:31,709 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf.
+LINE 708 : 2019-12-02 17:07:31,709 [DEBUG   ] Writing TrueType font.
+LINE 701 : 2019-12-02 17:07:31,749 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 708 : 2019-12-02 17:07:31,749 [DEBUG   ] Writing TrueType font.
+LINE 651 : 2019-12-02 17:07:32,146 [DEBUG   ] Assigning font /b'F1' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 651 : 2019-12-02 17:07:32,315 [DEBUG   ] Assigning font /b'F2' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf'
+LINE 701 : 2019-12-02 17:07:32,315 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf.
+LINE 708 : 2019-12-02 17:07:32,315 [DEBUG   ] Writing TrueType font.
+LINE 701 : 2019-12-02 17:07:32,354 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 708 : 2019-12-02 17:07:32,355 [DEBUG   ] Writing TrueType font.
+LINE 560 : 2019-12-02 17:07:32,509 [DEBUG   ] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fe0e03dab10>
+LINE 608 : 2019-12-02 17:07:32,509 [DEBUG   ] Using auto colorbar locator on colorbar
+LINE 609 : 2019-12-02 17:07:32,509 [DEBUG   ] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fe0e03dab10>
+LINE 780 : 2019-12-02 17:07:32,509 [DEBUG   ] Setting pcolormesh
+LINE 651 : 2019-12-02 17:07:32,572 [DEBUG   ] Assigning font /b'F1' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 701 : 2019-12-02 17:07:32,680 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 708 : 2019-12-02 17:07:32,680 [DEBUG   ] Writing TrueType font.
+LINE 651 : 2019-12-02 17:07:32,936 [DEBUG   ] Assigning font /b'F1' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 701 : 2019-12-02 17:07:33,035 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 708 : 2019-12-02 17:07:33,035 [DEBUG   ] Writing TrueType font.
+LINE 651 : 2019-12-02 17:07:33,192 [DEBUG   ] Assigning font /b'F1' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 651 : 2019-12-02 17:07:33,380 [DEBUG   ] Assigning font /b'F2' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf'
+LINE 701 : 2019-12-02 17:07:33,381 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf.
+LINE 708 : 2019-12-02 17:07:33,382 [DEBUG   ] Writing TrueType font.
+LINE 701 : 2019-12-02 17:07:33,420 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 708 : 2019-12-02 17:07:33,420 [DEBUG   ] Writing TrueType font.
+LINE 651 : 2019-12-02 17:07:33,808 [DEBUG   ] Assigning font /b'F1' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 651 : 2019-12-02 17:07:33,980 [DEBUG   ] Assigning font /b'F2' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf'
+LINE 701 : 2019-12-02 17:07:33,980 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf.
+LINE 708 : 2019-12-02 17:07:33,980 [DEBUG   ] Writing TrueType font.
+LINE 701 : 2019-12-02 17:07:34,018 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 708 : 2019-12-02 17:07:34,018 [DEBUG   ] Writing TrueType font.
+LINE 560 : 2019-12-02 17:07:34,164 [DEBUG   ] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fe0fc45e7d0>
+LINE 608 : 2019-12-02 17:07:34,164 [DEBUG   ] Using auto colorbar locator on colorbar
+LINE 609 : 2019-12-02 17:07:34,164 [DEBUG   ] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7fe0fc45e7d0>
+LINE 780 : 2019-12-02 17:07:34,164 [DEBUG   ] Setting pcolormesh
+LINE 651 : 2019-12-02 17:07:34,224 [DEBUG   ] Assigning font /b'F1' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 701 : 2019-12-02 17:07:34,323 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 708 : 2019-12-02 17:07:34,323 [DEBUG   ] Writing TrueType font.
+LINE 651 : 2019-12-02 17:07:34,556 [DEBUG   ] Assigning font /b'F1' = '/home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 701 : 2019-12-02 17:07:34,652 [DEBUG   ] Embedding font /home/cades/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 708 : 2019-12-02 17:07:34,652 [DEBUG   ] Writing TrueType font.
+LINE 440 : 2019-12-02 17:07:34,747 [INFO    ] Congratulations. GSEApy ran successfully.................
+

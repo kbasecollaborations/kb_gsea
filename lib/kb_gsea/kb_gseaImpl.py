@@ -2,6 +2,7 @@
 #BEGIN_HEADER
 import logging
 import os
+from kb_gsea.Utils.gsea import gsea
 
 from installed_clients.KBaseReportClient import KBaseReport
 #END_HEADER
@@ -37,6 +38,7 @@ class kb_gsea:
         self.shared_folder = config['scratch']
         logging.basicConfig(format='%(created)s %(levelname)s: %(message)s',
                             level=logging.INFO)
+        self.gs = gsea()
         #END_CONSTRUCTOR
         pass
 
@@ -51,6 +53,9 @@ class kb_gsea:
         # ctx is the context object
         # return variables are: output
         #BEGIN run_kb_gsea
+        cmd = self.gs.build_gsea_command()
+        #exit(cmd)
+        self.gs.run_gsea_command(cmd)
         report = KBaseReport(self.callback_url)
         report_info = report.create({'report': {'objects_created':[],
                                                 'text_message': params['parameter_1']},
@@ -67,6 +72,7 @@ class kb_gsea:
                              'output is not type dict as required.')
         # return the results
         return [output]
+
     def status(self, ctx):
         #BEGIN_STATUS
         returnVal = {'state': "OK",

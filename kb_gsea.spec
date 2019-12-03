@@ -8,9 +8,13 @@ module kb_gsea {
         string report_ref;
     } ReportResults;
 
+    typedef structure{
+        string filename;
+      } inparams;
+
     /*
         This example function accepts any number of parameters and returns results in a KBaseReport
     */
-    funcdef run_kb_gsea(mapping<string,UnspecifiedObject> params) returns (ReportResults output) authentication required;
+    funcdef run_kb_gsea(inparams params) returns (ReportResults output) authentication required;
 
 };
