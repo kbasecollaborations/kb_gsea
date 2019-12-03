@@ -54,7 +54,7 @@ class kb_gsea:
         # return variables are: output
         #BEGIN run_kb_gsea
         cmd = self.gs.build_gsea_command()
-        #exit(cmd)
+        print(cmd)
         self.gs.run_gsea_command(cmd)
         report = KBaseReport(self.callback_url)
         report_info = report.create({'report': {'objects_created':[],

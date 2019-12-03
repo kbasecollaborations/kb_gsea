@@ -12,6 +12,7 @@ class gsea:
           os.mkdir('/kb/module/work/tmp/gsea_out')
     
       command="gseapy.gsea(data='/kb/module/work/gseapy_test/Ath.exp_matrix', gene_sets='/kb/module/work/gseapy_test/Ath.gmt', cls='/kb/module/work/gseapy_test/Ath.cls', method='signal_to_noise', outdir='/kb/module/work/tmp/gseapy_out')"
+      print(command)
       return command
 
   def run_gsea_command(self, command):
