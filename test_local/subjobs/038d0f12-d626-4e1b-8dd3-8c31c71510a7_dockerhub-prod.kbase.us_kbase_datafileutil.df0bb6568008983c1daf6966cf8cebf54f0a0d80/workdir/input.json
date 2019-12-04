@@ -1,1 +1,0 @@
-{"id":"600701129276","method":"DataFileUtil.own_shock_node","params":[{"make_handle":1,"shock_id":"2e1a6ff6-4bb9-4789-b7a4-37e71bfa32a6"}],"version":"1.1","context":{"call_stack":[{"time":"2019-12-04T16:31:25+0000","method":"DataFileUtil._own_shock_node_submit"}],"service_ver":"release"}}
