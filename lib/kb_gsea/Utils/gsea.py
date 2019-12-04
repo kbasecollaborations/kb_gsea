@@ -13,7 +13,7 @@ class gsea:
       directory_list = os.listdir(outdirectory)
 
       for file_name in directory_list:
-          htmlstring += "<a href='" + file_name + "'>file_name</a></br>"
+          htmlstring += "<a href=" + file_name + ">file_name</a></br>"
       htmlstring += "</body></html>";
       return (htmlstring)
 
