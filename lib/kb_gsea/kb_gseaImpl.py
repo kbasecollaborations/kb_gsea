@@ -3,6 +3,7 @@
 import logging
 import os
 from kb_gsea.Utils.gsea import gsea
+from kb_gsea.Utils.htmlreportutils import htmlreportutils
 
 from installed_clients.KBaseReportClient import KBaseReport
 #END_HEADER
@@ -39,6 +40,8 @@ class kb_gsea:
         logging.basicConfig(format='%(created)s %(levelname)s: %(message)s',
                             level=logging.INFO)
         self.gs = gsea()
+        self.hr = htmlreportutils()
+
         #END_CONSTRUCTOR
         pass
 
@@ -53,17 +56,11 @@ class kb_gsea:
         # ctx is the context object
         # return variables are: output
         #BEGIN run_kb_gsea
-        cmd = self.gs.build_gsea_command()
-        print(cmd)
-        self.gs.run_gsea_command(cmd)
-        report = KBaseReport(self.callback_url)
-        report_info = report.create({'report': {'objects_created':[],
-                                                'text_message': params['parameter_1']},
-                                                'workspace_name': params['workspace_name']})
-        output = {
-            'report_name': report_info['name'],
-            'report_ref': report_info['ref'],
-        }
+        outputdir = self.gs.run_gsea()
+        workspace = params['workspace_name']
+        output = self.hr.create_html_report(self.callback_url, outputdir, workspace)
+        #report = KBaseReport(self.callback_url)
+
         #END run_kb_gsea
 
         # At some point might do deeper type checking...
