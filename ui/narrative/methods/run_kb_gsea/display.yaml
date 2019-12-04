@@ -1,10 +1,10 @@
 #
 # define display information
 #
-name: Method Name Here
+name: Gene Set Enrichment Analysis
 
 tooltip: |
-    Perform some kind of method
+    Use the gsea algorithm for gene set enrihment analysis
 
 screenshots: []
 
