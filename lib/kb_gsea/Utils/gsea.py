@@ -20,7 +20,7 @@ class gsea:
 
   def run_gsea(self):
       expfile='/kb/module/test/data/Ath.exp_matrix'
-      genesets='/kb/module/test/data/Ath.gmt'
+      genesets='/kb/module/test/data/Ath_all.gmt'
       clsfile = '/kb/module/test/data/Ath.cls'
       rmethod = 'signal_to_noise'
       outdirectory='/kb/module/work/tmp/gseapy_out' + str(uuid.uuid1())
