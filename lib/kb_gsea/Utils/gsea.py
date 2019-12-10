@@ -23,9 +23,10 @@ class gsea:
       genesets='/kb/module/test/data/Ath_all.gmt'
       clsfile = '/kb/module/test/data/Ath.cls'
       rmethod = 'signal_to_noise'
+      rankfile = 'fgsea_test/rnk.txt'
       outdirectory='/kb/module/work/tmp/gseapy_out' + str(uuid.uuid1())
-      result=gseapy.gsea(data=expfile, gene_sets=genesets, cls=clsfile, method=rmethod, outdir=outdirectory)
-
+      #result=gseapy.gsea(data=expfile, gene_sets=genesets, cls=clsfile, method=rmethod, outdir=outdirectory)
+      result=gseapy.prerank(rnk=rankfile, gene_sets=genesets, method=rmethod, outdir=outdirectory)
       htmlstring = self.create_index_html(outdirectory)
 
       index_file_path = outdirectory + "/index.html"
