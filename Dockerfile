@@ -62,7 +62,6 @@ RUN pip install gseapy
 
 RUN Rscript -e 'install.packages("remotes")' &&  installGithub.r  https://github.com/ctlab/fgsea/
 
-RUN apt-get install -y vim 
 
 COPY ./ /kb/module
 RUN mkdir -p /kb/module/work

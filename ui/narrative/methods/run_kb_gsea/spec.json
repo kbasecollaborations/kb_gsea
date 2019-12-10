@@ -38,8 +38,8 @@
     "behavior": {
         "service-mapping": {
             "url": "",
-            "name": "MotifFinderSampler",
-            "method": "DiscoverMotifsFromSequenceSet",
+            "name": "kb_gsea",
+            "method": "run_kb_gsea",
             "input_mapping": [
                 {
                     "narrative_system_variable": "workspace",
