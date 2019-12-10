@@ -9,12 +9,13 @@ module kb_gsea {
     } ReportResults;
 
     typedef structure{
-        string filename;
-      } inparams;
+        string obj_name;
+        int permutation_number;
+      } gseaparams;
 
     /*
         This example function accepts any number of parameters and returns results in a KBaseReport
     */
-    funcdef run_kb_gsea(inparams params) returns (ReportResults output) authentication required;
+    funcdef run_kb_gsea(gseaparams params) returns (ReportResults output) authentication required;
 
 };

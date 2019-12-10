@@ -2,9 +2,12 @@
 #BEGIN_HEADER
 import logging
 import os
+import csv
 from kb_gsea.Utils.gsea import gsea
+from kb_gsea.Utils.rankutils import rankutils
 from kb_gsea.Utils.htmlreportutils import htmlreportutils
-
+from kb_gsea.Utils.expressionmatrixutil import expressionmatrixutil
+from installed_clients.DataFileUtilClient import DataFileUtil
 from installed_clients.KBaseReportClient import KBaseReport
 #END_HEADER
 
@@ -41,7 +44,9 @@ class kb_gsea:
                             level=logging.INFO)
         self.gs = gsea()
         self.hr = htmlreportutils()
-
+        self.eu = expressionmatrixutil()
+        self.dfu = DataFileUtil(self.callback_url)
+        self.ru = rankutils()
         #END_CONSTRUCTOR
         pass
 
@@ -56,11 +61,45 @@ class kb_gsea:
         # ctx is the context object
         # return variables are: output
         #BEGIN run_kb_gsea
+        '''
+        get_objects_params = {'object_refs' : [params['DifferentialExpressionMatrixRef']]} 
+        ExpSet = self.dfu.get_objects(get_objects_params)['data'][0]['data']
+        matrix_data= ExpSet['data']
+        #diff_expr_data = ExpSet['data']
+        #diff_expr_info = ExpSet['info']
+        #exit(ExpSet['items'])
+        #diff_expr_name = diff_expr_info[1]
+        diff_expr_matrix_file_name = 'gene_results.csv'
+        result_directory = "/kb/module/work/tmp/"
+        diff_expr_matrix_file = os.path.join(result_directory, diff_expr_matrix_file_name)
+     
+        with open(diff_expr_matrix_file, 'w') as csvfile:
+            fieldnames = ['gene_id', 'log2_fold_change', 'p_value', 'q_value']
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames, delimiter="\t")
+            writer.writeheader() 
+        
+        with open(diff_expr_matrix_file, 'a') as csvfile:
+             row_ids = matrix_data.get('row_ids')
+             row_values = matrix_data.get('values')
+             writer = csv.DictWriter(csvfile, fieldnames=fieldnames, delimiter="\t")
+             for pos, row_id in enumerate(row_ids):
+                 row_value = row_values[pos]
+                 if str(row_value[0]) :
+                     writer.writerow({'gene_id': row_id,
+                                         'log2_fold_change': row_value[0],
+                                         'p_value': row_value[1],
+                                         'q_value': row_value[2]})   
+        '''
+        self.eu.download_expression_matrix(params['DifferentialExpressionMatrixRef'])
+        diff_expr_matrix_file_name = 'gene_results.csv'
+        result_directory = "/kb/module/work/tmp/"
+        diff_expr_matrix_file = os.path.join(result_directory, diff_expr_matrix_file_name)
+ 
+        self.ru.gen_rank(diff_expr_matrix_file)
         outputdir = self.gs.run_gsea()
         workspace = params['workspace_name']
         output = self.hr.create_html_report(self.callback_url, outputdir, workspace)
-        #report = KBaseReport(self.callback_url)
-
+        report = KBaseReport(self.callback_url)
         #END run_kb_gsea
 
         # At some point might do deeper type checking...

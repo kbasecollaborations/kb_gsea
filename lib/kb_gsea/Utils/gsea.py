@@ -17,7 +17,19 @@ class gsea:
       htmlstring += "</body></html>";
       return (htmlstring)
 
+  def run_gsea(self):
+      #outdirectory='/kb/module/work/tmp/' + str(uuid.uuid1())
+      outdirectory='/kb/module/work/tmp/'
+      os.system("Rscript /kb/module/work/fgsea_test/run_Ath_Kbase.R "+ outdirectory)
+      htmlstring = self.create_index_html(outdirectory)
+      index_file_path = outdirectory + "/index.html"
+      html_file = open(index_file_path, "wt")
+      n = html_file.write(htmlstring)
+      html_file.close()
 
+      return (outdirectory)
+
+  '''
   def run_gsea(self):
       expfile='/kb/module/test/data/Ath.exp_matrix'
       genesets='/kb/module/test/data/Ath_all.gmt'
@@ -35,6 +47,6 @@ class gsea:
       html_file.close()
 
       return (outdirectory)
-      
+  '''    
       
   
