@@ -65,7 +65,7 @@ class kb_gseaTest(unittest.TestCase):
         # self.assertEqual(ret[...], ...) or other unittest methods
         params = {
             'workspace_name': 'man4ish_gupta:narrative_1575987495386',
-            'DifferentialExpressionMatrixRef' : '34852/2/1',
+            'expression_matrix' : '34852/2/1',
         } 
         ret = self.serviceImpl.run_kb_gsea(self.ctx, params)
         #pass

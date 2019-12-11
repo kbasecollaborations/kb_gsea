@@ -61,7 +61,8 @@ class kb_gsea:
         # ctx is the context object
         # return variables are: output
         #BEGIN run_kb_gsea
-        self.eu.download_expression_matrix(params['DifferentialExpressionMatrixRef'])
+        self.eu.download_expression_matrix(params['expression_matrix'])
+        #self.eu.download_expression_matrix(params['DifferentialExpressionMatrixRef'])
         diff_expr_matrix_file_name = 'gene_results.csv'
         result_directory = "/kb/module/work/tmp/"
         diff_expr_matrix_file = os.path.join(result_directory, diff_expr_matrix_file_name)
