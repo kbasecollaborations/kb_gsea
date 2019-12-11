@@ -37,7 +37,7 @@ class rankutils:
       f.close()
 
       fw = open(outdirectory+"/rank.txt", "w")
-      fw.write("Id\tt\n")
+      fw.write("ID\tt\n")
       sorted_list=Counter(sorteddict).most_common()[::-1]
       for k in sorted_list:
           fw.write(k[0]+"\t"+str(k[1])+"\n")
