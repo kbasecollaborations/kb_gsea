@@ -22,5 +22,8 @@ head(fgseaRes)
 
 fwrite(fgseaRes, file=outfile, sep="\t", sep2=c("", " ", ""))
 
-plotEnrichment(pathways, ranks, gseaParam = 1, ticksSize = 0.2)
+png(paste0(outdir,"/myplot.png"))
+plotx = plotEnrichment(pathways, ranks, gseaParam = 1, ticksSize = 0.2)
+print(plotx)
+dev.off()
 
