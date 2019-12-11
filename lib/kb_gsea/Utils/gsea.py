@@ -18,9 +18,16 @@ class gsea:
       return (htmlstring)
 
   def run_gsea(self):
-      #outdirectory='/kb/module/work/tmp/' + str(uuid.uuid1())
-      outdirectory='/kb/module/work/tmp/'
-      os.system("Rscript /kb/module/lib/kb_gsea/Utils/run_Ath_Kbase.R "+ outdirectory)
+      outdirectory='/kb/module/work/tmp/' + str(uuid.uuid1())
+      #TODO: Make sure you test for success of creatinga  directory
+      os.mkdir(outdirectory)
+
+      #outdirectory='/kb/module/work/tmp/'
+      command = "Rscript /kb/module/lib/kb_gsea/Utils/run_Ath_Kbase.R "+ outdirectory
+
+      #TODO: Try to fihure out how to put logs 
+      print (command)
+      os.system(command)
       htmlstring = self.create_index_html(outdirectory)
       index_file_path = outdirectory + "/index.html"
       html_file = open(index_file_path, "wt")
