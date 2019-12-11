@@ -28,8 +28,8 @@ class kb_gsea:
     # the latter method is running.
     ######################################### noqa
     VERSION = "0.0.1"
-    GIT_URL = "https://github.com/Kbasecollaborations/kb_gsea.git"
-    GIT_COMMIT_HASH = "c20d85f30612654bbb8b4a92ca862c578b45b78d"
+    GIT_URL = ""
+    GIT_COMMIT_HASH = ""
 
     #BEGIN_CLASS_HEADER
     #END_CLASS_HEADER
@@ -54,10 +54,7 @@ class kb_gsea:
     def run_kb_gsea(self, ctx, params):
         """
         This example function accepts any number of parameters and returns results in a KBaseReport
-        :param params: instance of type "gseaparams" -> structure: parameter
-           "obj_name" of String, parameter "workspace_name" of String,
-           parameter "expression_matrix" of String, parameter
-           "permutation_number" of Long
+        :param params: instance of mapping from String to unspecified object
         :returns: instance of type "ReportResults" -> structure: parameter
            "report_name" of String, parameter "report_ref" of String
         """
@@ -83,6 +80,7 @@ class kb_gsea:
                              'output is not type dict as required.')
         # return the results
         return [output]
+
     def status(self, ctx):
         #BEGIN_STATUS
         returnVal = {'state': "OK",

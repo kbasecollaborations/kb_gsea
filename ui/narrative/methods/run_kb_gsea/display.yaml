@@ -27,7 +27,7 @@ suggestions:
 # Configure the display and description of parameters
 #
 parameters :
-    differential_expression_matrix :
+    expression_matrix :
         ui-name : |
             Differential Expression Matrix
         short-hint : |
