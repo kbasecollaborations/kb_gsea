@@ -5,8 +5,8 @@ library(data.table)
 
 outdir=args[1]
 outfile=paste0(outdir,"/fgseaRes_kbase_ath.txt")
-rnk.file<-"/kb/module/work/tmp/rank.txt"
-gmt.file <- "/kb/module/data/Ath.gmt"
+rnk.file<-args[2]
+gmt.file <- args[3]
 
 ranks <- read.table(rnk.file,
                     header=TRUE, colClasses = c("character", "numeric"))
@@ -23,4 +23,4 @@ head(fgseaRes)
 fwrite(fgseaRes, file=outfile, sep="\t", sep2=c("", " ", ""))
 
 plotEnrichment(pathways, ranks, gseaParam = 1, ticksSize = 0.2)
-
+dev.off()

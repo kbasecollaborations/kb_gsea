@@ -19,23 +19,22 @@ class rankutils:
       pvalue_col = pvalue_col[pvalue_col != 0]
       min_pvalue = pvalue_col.min()/10
 
-      pvalue=df.iloc[:,2].replace(0,min_pvalue)
-      fol_change=df.iloc[:,1]
-      gene_id=df.iloc[:,0]
-
+      f = open(diffexpressionfile, "r")
       sorteddict = {}
-      
-      for index, row in df.iterrows():
-          pvalue = row['p_value']
-          geneid = row['gene_id']
-          log_two_fold_change=row['log2_fold_change']
-          
-          if(pvalue == 0):
-             pvalue = min_pvalue
-          if(float(log_two_fold_change) > 0):
-             sorteddict[geneid]=1/pvalue
-          else:
-             sorteddict[geneid]=-1/pvalue
+      for line in f:
+          if(not (line.startswith("gene_id"))):
+             line=line.rstrip()
+             seq=line.split("\t")
+             geneid=seq[0]
+             log_two_fold_change=seq[1]
+             pvalue=float(seq[2])
+             if(pvalue == 0):
+                pvalue = min_pvalue
+             if(float(log_two_fold_change) > 0):
+                sorteddict[geneid]=1/pvalue
+             else:
+                sorteddict[geneid]=-1/pvalue
+      f.close()
 
       fw = open(outdirectory+"/rank.txt", "w")
       fw.write("ID\tt\n")
