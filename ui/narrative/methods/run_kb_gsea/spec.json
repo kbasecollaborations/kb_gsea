@@ -12,7 +12,7 @@
     },
     "parameters": [
         {
-            "id": "expression_matrix",
+            "id": "differential_expression_matrix",
             "optional": true,
             "advanced": false,
             "allow_multiple": false,
@@ -46,8 +46,8 @@
                     "target_property": "workspace_name"
                 },
                 {
-                    "input_parameter": "expression_matrix",
-                    "target_property": "expression_matrix",
+                    "input_parameter": "differential_expression_matrix",
+                    "target_property": "differential_expression_matrix",
                     "target_type_transform": "resolved-ref"
                 },
                 {
