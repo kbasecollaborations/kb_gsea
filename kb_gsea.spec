@@ -10,6 +10,7 @@ module kb_gsea {
 
     typedef structure{
         string obj_name;
+        string expression_matrix;
         int permutation_number;
       } gseaparams;
 
