@@ -20,7 +20,7 @@ class gsea:
   def run_gsea(self):
       #outdirectory='/kb/module/work/tmp/' + str(uuid.uuid1())
       outdirectory='/kb/module/work/tmp/'
-      os.system("Rscript /kb/module/work/fgsea_test/run_Ath_Kbase.R "+ outdirectory)
+      os.system("Rscript /kb/module/lib/kb_gsea/Utils/run_Ath_Kbase.R "+ outdirectory)
       htmlstring = self.create_index_html(outdirectory)
       index_file_path = outdirectory + "/index.html"
       html_file = open(index_file_path, "wt")
