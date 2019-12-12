@@ -28,7 +28,7 @@ print(df$pathway[1])
 
 #fwrite(fgseaRes, file=outfile, sep="\t", sep2=c("", " ", ""))
 
-for (i in 1:10)
+for (i in 1:5)
 {
     print(df$pathway[i])
     name <- gsub("//", "", df$pathway[i], fixed=TRUE) 
@@ -42,7 +42,7 @@ for (i in 1:10)
 print("printing bottom 10\n")
 num<-nrow(df)
 
-for (j in (num-10):num)
+for (j in (num-5):num)
 {
     print(df$pathway[j])
     name <- gsub("//", "", df$pathway[j], fixed=TRUE)
