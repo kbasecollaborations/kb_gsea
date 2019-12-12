@@ -14,16 +14,23 @@ ranks <- setNames(ranks$t, ranks$ID)
 str(ranks)
 
 pathways <- gmtPathways(gmt.file)
+
 str(head(pathways))
 
 
 fgseaRes <- fgsea(pathways, ranks, minSize=15, maxSize=500, nperm=1000)
-head(fgseaRes)
+dataout<-as.data.frame(fgseaRes)
 
-fwrite(fgseaRes, file=outfile, sep="\t", sep2=c("", " ", ""))
+df <-dataout[order(dataout$pval),]
+fwrite(df, file=outfile, sep="\t", sep2=c("", " ", ""))
+print(df$pathway[1])
+#fwrite(fgseaRes, file=outfile, sep="\t", sep2=c("", " ", ""))
 
-png(paste0(outdir,"/myplot.png"))
-plotx = plotEnrichment(pathways, ranks, gseaParam = 1, ticksSize = 0.2)
-print(plotx)
-dev.off()
+for (i in 1:10)
+{
+    png(paste0(outdir,"/myplot",i,".png"))
+    plotx = plotEnrichment(pathways[[df$pathway[i]]], ranks, gseaParam = 1, ticksSize = 0.2)
+    print(plotx)
+    dev.off()
+}
 
